@@ -172,9 +172,9 @@
  * 'TMC26X_STANDALONE', 'TMC2660', 'TMC2660_STANDALONE', 'TMC5130',
  * 'TMC5130_STANDALONE', 'TMC5160', 'TMC5160_STANDALONE']
  */
-#define X_DRIVER_TYPE A4988
-#define Y_DRIVER_TYPE A4988
-#define Z_DRIVER_TYPE A4988
+#define X_DRIVER_TYPE TMC2209_STANDALONE
+#define Y_DRIVER_TYPE TMC2209_STANDALONE
+#define Z_DRIVER_TYPE TMC2209_STANDALONE
 // #define X2_DRIVER_TYPE A4988
 // #define Y2_DRIVER_TYPE A4988
 // #define Z2_DRIVER_TYPE A4988
@@ -186,7 +186,7 @@
 // #define U_DRIVER_TYPE  A4988
 // #define V_DRIVER_TYPE  A4988
 // #define W_DRIVER_TYPE  A4988
-#define E0_DRIVER_TYPE A4988
+#define E0_DRIVER_TYPE TMC2209_STANDALONE
 // #define E1_DRIVER_TYPE A4988
 // #define E2_DRIVER_TYPE A4988
 // #define E3_DRIVER_TYPE A4988
@@ -1468,7 +1468,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
